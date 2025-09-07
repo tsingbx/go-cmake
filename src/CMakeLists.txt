@@ -1,2 +1,2 @@
 set(SOURCE_FILE main.go)
-add_go_executable(go-make ${SOURCE_FILE})
+add_go_executable(hello ${SOURCE_FILE})
