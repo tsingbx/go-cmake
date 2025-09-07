@@ -1,13 +1,12 @@
 # go-cmake
 Building Golang project with CMake
 
-## How to build
-
+## How to run main.go
     $ git clone https://github.com/mutse/go-cmake.git
     $ cd go-cmake
-    $ mkdir build
-    $ cd build
-    $ cmake ../
-    $ sudo make install
+    $ cmake -S . -B build
+    $ cmake --build ./build -t hello
+    $ ./build/src/hello 
+
 
 
